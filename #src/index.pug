@@ -1,0 +1,314 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Cnverif.com - проверка китайских контрагентов
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@700&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="css/style.min.css")
+    link(rel="shortcut icon", href="img/sitepng-logo.png" type='image/png')
+  body 
+    .wrapper
+      .menu-mobile#menu
+        .header__menu-cont#men
+          img.menu-icon(src="img/menu-icon.svg" alt="icon")
+          p.header__menu-text Меню
+        .dropdown__menu.open2
+          h2.dropdown__menu-title Проверка поставщика в Китае
+          ul.dropdown__menu-items
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#variants") Варианты проверки
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#price") Стоимость 
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#nesinfo") Необходимая информация
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#form") Заказать проверку
+          h2.dropdown__menu-title Дополнительные услуги
+          ul.dropdown__menu-items
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="delivery.html") Доставка из Китая
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#") Поиск поставщика в Китае 
+        .header__menu-cont#lang
+          img.lang-icon(src="img/lang/ru.svg" alt="lang")
+          p.header__menu-lang Русский
+        .dropdown__lang.lang-open-second
+          ul.dropdown__lang-items 
+            li.dropdown__lang-item 
+              img.dropdown__lang-img(src="img/lang/eng.svg" alt="eng")
+              | English
+            li.dropdown__lang-item.dropdown__lang-item--active
+              img.dropdown__lang-img(src="img/lang/ru.svg" alt="ru")
+              | Русский
+            li.dropdown__lang-item 
+              img.dropdown__lang-img(src='img/lang/kz.svg' alt='kz')
+              | Казахский
+      .head-bck-img
+        header.header
+          .container
+            .header__menu#menu
+              .header__menu-cont#men
+                img.menu-icon(src="img/menu-icon.svg" alt="icon")
+                p.header__menu-text Меню
+              .dropdown__menu.open1
+                h2.dropdown__menu-title Проверка поставщиков в китае
+                ul.dropdown__menu-items
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="#variants") Варианты проверки
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="#price") Стоимость 
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="#nesinfo") Необходимая информация
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="#form") Заказать проверку
+                h2.dropdown__menu-title Дополнительные услуги
+                ul.dropdown__menu-items
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="delivery.html") Доставка из Китая
+                  li.dropdown__menu-item
+                    a.dropdown__menu-link(href="#") Поиск поставщика в Китае
+              .header__menu-cont#lang
+                img.lang-icon(src="img/lang/ru.svg" alt="lang")
+                p.header__menu-lang Русский
+              .dropdown__lang
+                ul.dropdown__lang-items 
+                  li.dropdown__lang-item
+                    img.dropdown__lang-img(src="img/lang/eng.svg" alt="eng")
+                    | English
+                  li.dropdown__lang-item.dropdown__lang-item--active 
+                    img.dropdown__lang-img(src="img/lang/ru.svg" alt="ru")
+                    | Русский
+                  li.dropdown__lang-item 
+                    img.dropdown__lang-img(src='img/lang/kz.svg' alt='kz')
+                    | Казахский
+            .header__socials 
+              a.logo-link(href='#index.html')
+                img.logo(src="img/logo.svg" alt="logo")
+              .social-items
+                a.social-item.popup__open(href='#popup__form')
+                  img(src="img/question-mark.svg" alt="question")
+                a.social-item(href='#')
+                  img(src="img/whatsapp.svg" alt="question")
+                a.social-item(href='#')
+                  img(src="img/mail.svg" alt="question")
+        .preheader
+          .container
+            .preheader__box
+              h1.preheader__title МЫ ПОМОГАЕМ ПРОВЕРЯТЬ
+              h2.preheader__title-red КИТАЙСКИЕ КОМПАНИИ
+              p.preheader__text Мы поможем вам проверить китайского продавца/компанию, чтобы вы спокойно могли совершать с ним сделки, не волнуясь о внесенной предоплате за товар
+        .submit__form
+          .blur
+          p.submit__text Просто поверьте, лучше Ваше дело доверить <span class='bold'>нашим профессионалам!</span>
+          a.submit__btn(href='#form')
+            img.submit__btn-img(src="img/btn.png" alt="")
+            p.submit__btn-text Оставить заявку
+        .mention
+          p.mention-text Да, проверить можно самостоятельно, но не имея опыта сделать это качественно  <span class='bold'>достаточно сложно</span>
+        .advantages 
+          .container 
+            .advantages__items 
+              .advantages__item 
+                img.advantages__img(src="img/10y.svg" alt="10")
+                .advantages__text-box 
+                  h3.advantages__title 10 ЛЕТ
+                  p.advantages__text На рынке китая, своя команда
+              .advantages__item 
+                img.advantages__img(src="img/building.svg" alt="100")
+                .advantages__text-box 
+                  h3.advantages__title СОТНИ
+                  p.advantages__text проверенных компаний
+              .advantages__item 
+                img.advantages__img(src="img/thief.svg" alt="thief")
+                .advantages__text-box 
+                  h3.advantages__title ДЕСЯТКИ
+                  p.advantages__text пойманных «за руку» мошенников
+              .advantages__advantage
+                h4.advantages__name ПРЕИМУЩЕСТВА
+      main.main
+        section.suggestions#variants
+          .container
+            h2.suggestions__title Для наших клиентов мы предлагаем<br>
+              span.red два варианта проверки:
+            .suggestions__box
+              .suggestions__first-box
+                img.suggestions__img(src="img/suggestion-1.svg" alt="suggestion")
+                p.suggestions__text <span class='bold'>Базовая проверка компании</span> – проверяем компанию по внутренним реестрам Китая, собираем всю информацию, включая негативные отзывы клиентов, если таковые будут иметься. Результат оформляется в <span class='bold'>PDF-документ</span>
+                p.suggestions__text <span class='bold'>Как выглядит результат базовой проверки</span> – А вот, пожалуйста, скачайте файл – это пример выполненной проверки: «посмотреть пример результата проверки предприятия в Китае»
+                a.suggestions__link(href='#') результат проверки     
+
+              .suggestions__second-box
+                img.suggestions__img(src="img/suggestion-2.svg" alt="suggestion")
+                p.suggestions__text <span class='bold'>Углубленная проверка китайского предприятия с посещением производства</span> – мы направим специалиста на проверяемое предприятие, предоставим вам фото/видеоотчет по вашим требованиям. В обязательном порядке углубленная проверка включает в себя и результат базовой проверки – сводную информацию о проверяемом предприятии в <span class='bold'>PDF-документе.</span>
+        section.prices#price
+          .container
+            h2.prices__title сколько стоит?
+            .prices__box
+              .prices__first
+                h3.prices__subtitle Базовая проверка стоит
+                span.prices__price 7 000 рублей 
+              .prices__second
+                h3.prices__subtitle Углубленная проверка
+                p.prices__text <span class='bold'>«Плавает»</span> в цене. Все зависит от региона, в котором необходимо посетить китайскую компанию, а также от задач, которые будут перед нами стоять. В целом, это стоит
+                p.prices__text-price Около <span class='prices__price'>10 000 рублей</span>
+            .submit__form
+              .blur
+              p.submit__text <span style='color:#FF0000'>*</span>компаниям, для которых по долгу работы приходится часто проверять компании, <span class='bold'>предусмотрены скидки, конечно же</span>
+              a.submit__btn(href='#form')
+                img.submit__btn-img(src="img/btn.png" alt="")
+                p.submit__btn-text Оставить заявку
+        section.happen#nesinfo
+          .container
+            h2.happen__title Хорошо, я согласен, что требуется от меня, <span class='red-grad'>как будет все происходить?</span>
+            .happen__box 
+              .happen__item 
+                img.happen__img(src="img/happen1.svg" alt="icon")
+                p.happen__text Необходимо, чтобы вы заполнили форму ниже. В ней мы спрашиваем у вас информацию о китайской компании-партнере, которую вам необходимо проверить. <span class='bold'>Заполните, прикрепите и расскажите нам</span> то, что знаете об этом предприятии. Логично, что минимально необходимое условие – название предприятия. Остальное не обязательно, но приветствуется, ведь чем больше информации у нас будет, тем по большему количеству параметров мы сможем проверить компанию.
+              .happen__item 
+                img.happen__img(src="img/happen2.svg" alt="icon")
+                p.happen__text Ваш запрос попадает нам на рассмотрение. Обещаем вам максимально быструю обратную связь в какой-либо мессенджер, либо на почту. Если нам будет чего-то не хватать – <span class='bold'>мы дозапросим у вас эту информацию.</span> Если все хорошо – сообщим что все в порядке и пришлем счет для оплаты наших услуг с указанием срока выполнения задачи
+              .happen__item 
+                img.happen__img(src="img/happen3.svg" alt="icon")
+                p.happen__text Всё, после вашей оплаты мы принялись за выполнение задания. Базовая проверка займет один рабочий день.<span class='bold'> Углубленная</span> – по согласованию с проверяемой стороной, ведь все зависит от согласованной даты посещения предприятия
+        section.feedback#form
+          .container 
+            h2.feedback__title ФОРМА <span class='red-grad'>ДЛЯ ЗАПОЛНЕНИЯ:</span>
+            form.feedback__form(action="#")#bform
+              h2.feedback__title.feedback__form__title-hidden ФОРМА <span class='red-grad'>ДЛЯ ЗАПОЛНЕНИЯ:</span>
+              .feedback__form__radio-box
+                label.feedback__form__label.noselect
+                  input.feedback__form__radio(type="radio" name='option' checked value='basic')
+                  span.feedback__form__radio-style
+                  | Меня интересует базовая проверка
+                label.feedback__form__label.noselect
+                  input.feedback__form__radio(type="radio" name='option' value='full')
+                  span.feedback__form__radio-style
+                  | Меня интересует проверка с посещением компании в китае
+              h3.feedback__form__title Сообщите нам информацию, которой владеете:
+              .feedback__form-inputs
+                .feedback__form__input-box
+                  input.feedback__form__input._req(type="text" name='company-name' placeholder='Название компании*')
+                .feedback__form__input-box(style='display:none')
+                  input.feedback__form__input(type="text" name='adress' placeholder='Адрес сайта китайской компании')
+                .feedback__form__input-box
+                  input.feedback__form__input(type="text" name='second-adress' placeholder='Адрес сайта китайской компании Если вы нашли предложение не на сайте компании, а на стороннем ресурсе (например, на алибаба)')
+                .feedback__form__input-box
+                  textarea.feedback__form__text-area(type="text" placeholder='Опишите проблему/историю/причину необходимой проверки' name='user-message')
+                p.feedback__form__text Загрузите документы, которые у вас уже есть от продавца – инвойсы-упаковочные листы, коммерческие предложение файлы-реквизиты, любые иные документы, всё может иметь значение
+                .feedback__form__files 
+                  .feedback__form__file
+                    label.feedback__form__file-label 
+                      input.feedback__form__file-input#formfile(type='file' name='file' accept='.txt, .docx, .pdf, .jpg, .png' multiple) 
+                  .feedback__form__file
+                    label.feedback__form__file-label(for='formfile') 
+                  .feedback__form__file
+                    label.feedback__form__file-label(for='formfile') 
+                  .feedback__form__file
+                    label.feedback__form__file-label(for='formfile')
+                  .feedback__form__file
+                    label.feedback__form__file-label(for='formfile')
+                .feedback__form__files-preview 
+                h3.feedback__form__info информация для связи с вами:
+                .feedback__form__info-box
+                  .feedback__form__input-info
+                    input.feedback__form__input._req(type="text" placeholder='Ваше имя*' name='user-name')
+                  .feedback__form__input-info
+                    input.feedback__form__input(type="tel" data-tel-input placeholder='Телефон' name='user-tel')
+                  .feedback__form__input-info
+                    input.feedback__form__input._req._email(type="email" placeholder='Электронная почта*' name='user-email')
+                  .feedback__form__input-info
+                    input.feedback__form__input(type="text" placeholder='Ваш WhatsApp' name='user-messenger')
+                button.feedback__form__submit(type='submit')
+                  img.submit__btn-img(src="img/btn.png" alt="")
+                  p.submit__btn-text Отправить запрос
+      footer.footer
+        .container
+          .footer__menu
+            a.footer__logo(href='#') cnverif.com
+            .footer__menu-hide#menu
+              .header__menu-cont#lang
+                img.lang-icon(src="img/lang/ru.svg" alt="lang")
+                p.header__menu-lang(color:black;) Русский
+              .dropdown__lang.lang-open-fourth
+                ul.dropdown__lang-items 
+                  li.dropdown__lang-item
+                    img.dropdown__lang-img(src="img/lang/eng.svg" alt="eng")
+                    | English
+                  li.dropdown__lang-item.dropdown__lang-item--active
+                    img.dropdown__lang-img(src="img/lang/ru.svg" alt="ru")
+                    | Русский
+                  li.dropdown__lang-item 
+                    img.dropdown__lang-img(src='img/lang/kz.svg' alt='kz')
+                    | Казахский
+            ul.footer__menu__items 
+              li.footer__menu__item
+                a.footer__menu__link(href="#") Перевозка 
+              li.footer__menu__item
+                a.footer__menu__link(href="#") Ваш представитель в китае 
+              li.footer__menu__item
+                a.footer__menu__link(href="#") Поиск товара
+            .social-items
+              a.social-item.popup__open(href='#popup__form')
+                img(src="img/question-mark.svg" alt="question")
+              a.social-item(href='mailto:idi.v.srakengrad@gmail.com')
+                img(src="img/whatsapp.svg" alt="question")
+              a.social-item(href="mailto:mail@htmlacademy.ru")
+                img(src="img/mail.svg" alt="question")
+      .footer__menu-mobile#menu
+        .header__menu-cont#men
+          img.menu-icon(src="img/menu-icon.svg" alt="icon")
+          p.header__menu-text(style='color:black;') Меню
+        .dropdown__menu.open3
+          h2.dropdown__menu-title Проверка поставщика в Китае
+          ul.dropdown__menu-items
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#variants") Варианты проверки
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#price") Стоимость 
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#nesinfo") Необходимая информация
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#form") Заказать проверку
+          h2.dropdown__menu-title Дополнительные услуги
+          ul.dropdown__menu-items
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="delivery.html") Доставка из Китая
+            li.dropdown__menu-item
+              a.dropdown__menu-link(href="#") Поиск поставщика в Китае 
+        .header__menu-cont#lang
+          img.lang-icon(src="img/lang/ru.svg" alt="lang")
+          p.header__menu-lang(style='color:black;') Русский
+        .dropdown__lang.lang-open-third
+          ul.dropdown__lang-items 
+            li.dropdown__lang-item 
+              img.dropdown__lang-img(src="img/lang/eng.svg" alt="eng")
+              | English
+            li.dropdown__lang-item.dropdown__lang-item--active
+              img.dropdown__lang-img(src="img/lang/ru.svg" alt="ru")
+              | Русский
+            li.dropdown__lang-item 
+              img.dropdown__lang-img(src='img/lang/kz.svg' alt='kz')
+              | Казахский
+    .popup__form
+      .popup__form-container
+        img.popup__form-close.close(src="img/сlose-icon.svg", alt="")
+        h2.popup__form-title Заполните форму
+        p.popup__form-text Мы обязательно ответим Вам в течении 2 часов
+        form.popup__form-form#pform(action="#")
+          input.popup__form-input.popup__form--elem._req(type="text" placeholder='Ваше имя*' name='user-name')
+          input.popup__form-input.popup__form--elem._req._email(type='email' placeholder='Ваша электронная почта*' name='user-email')
+          textarea.popup__form-textarea.popup__form--elem(placeholder='Задайте вопрос' name='user-message')
+          button.feedback__form__submit.popup__form-btn(type='submit')
+            img.submit__btn-img(src="img/btn.png" alt="")
+            p.submit__btn-text.popup__form-btn-text Отправить
+    .popup__thanks.popup__form
+      .popup__thanks-container
+        img.popup__form-close.close(src="img/сlose-icon.svg", alt="")
+        img.popup__thanks-img(src="img/thanks.svg", alt="thanks")
+        h3.popup__thanks-title Спасибо!
+        p.popup__thanks-text Мы обязательно свяжемся с вами
+    script(src="js/script.min.js") 

@@ -1,0 +1,6 @@
+$maxWidth:1200;
+@mixin font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 415;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 415px) / #{$maxWidth}));
+}
